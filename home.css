@@ -1,0 +1,42 @@
+@charset UTF-8;
+
+body {font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
+
+.top:after {content: ""; display: block; clear: both}
+.title {float: left; width: 80%}
+.login {float: left; width: 20%}
+.title h1 a {text-decoration: none; color: #a0d8ef}
+.login p {color: #708090; font-size: 15px}
+.login p a {text-decoration: none; color: #708090}
+
+.menu ul:after {content: ""; display: block; clear: both}
+.menu ul {list-style: none; padding: 0; margin: 0}
+.menu li {float: left; width: auto}
+.menu li a {display: block; text-decoration: none; color: #708090; padding: 5px}
+.menu {background-color: #87ceeb}
+.menu li a:hover {background-color: #add8e6}
+
+.search:after {content: ""; display: block; clear: both}
+.search form {float: left; padding-right: 20px}
+.search {background-color: #b0e0e6; margin-bottom: 20px; padding: 5px;}
+input#name_button, input#title_button, input#login_button {padding: 0 5px; background-color: #708090; color: #ffffff; border-style: none;}
+
+.contents h2 a {text-decoration: none; color: #a0d8ef}
+.contents h2 {text-decoration: none; color: #a0d8ef}
+.contents ul:after {content: ""; display: block; clear: both}
+.contents ul {list-style: none}
+.contents ul li {float: left;}
+.contents ul li a {display: block; text-decoration: none; color: #708090; padding: 10px}
+.contents ul li a img {width: 320px; height: 180px}
+.contents p a {text-decoration: none; color: #708090}
+.contents p {color: #708090}
+.contents img {width: 320px; height: 180px}
+
+.form form h2 {color: #a0d8ef}
+.form p {color: #708090}
+.form form label {color: #708090}
+.form input#thumb, input#title, input#delete, input#button {padding: 10px 15px; background-color: #708090; color: #ffffff; border-style: none;}
+
+.page ul {list-style: none; text-align: center}
+.page li {display: inline-block; padding: 10px;}
+.page li a {text-decoration: none; color: #708090}

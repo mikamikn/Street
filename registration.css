@@ -1,0 +1,9 @@
+@charset UTF-8;
+
+body {font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
+
+h1 {color: #a0d8ef}
+h2 {color: #a0d8ef}
+p {color: #708090}
+p a {text-decoration: none; color: #708090}
+input#button {padding: 10px 15px; background-color: #708090; color: #ffffff; border-style: none;}
